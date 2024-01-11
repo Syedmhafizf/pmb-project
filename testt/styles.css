@@ -1,0 +1,78 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.my-nav {
+  text-transform: uppercase;
+}
+
+.my-nav li a {
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo p {
+  font-size: 1rem;
+  margin: auto 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.carousel-inner img {
+  height: 500px;
+}
+
+.list {
+  border: 2px solid black;
+}
+
+.hero {
+  background: url("cafe-background.jpg") center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-text {
+  font-size: 3em;
+}
+
+.hero-description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #8e0e00;
+  border-color: #8e0e00;
+}
+
+.btn-primary:hover {
+  background-color: #6b0c00;
+  border-color: #6b0c00;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
